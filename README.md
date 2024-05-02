@@ -1,30 +1,32 @@
-# Projeto [Nome do Projeto]
+# Projeto [Nem sei o que estou projetando ainda...]
 
 ## Descrição
-[Descreva brevemente o propósito e objetivo do projeto.]
+
 
 ## Metodologia
 Este projeto foi desenvolvido utilizando a metodologia MVC (Model-View-Controller).
 
 ## Tecnologias Utilizadas
-- Tecnologia 1
-- Tecnologia 2
-- Tecnologia 3
+- Front-end
+- Back-end
+- Xampp
+- Mysql Workbench
+- Postman
 
-### Diagrama
+## Diagrama
 ![image](/banco_de_dados/diagrama_bd.png)
 
 ## Configuração
-[Instruções sobre como configurar o ambiente de desenvolvimento e executar o projeto.]
+
 
 ## Estrutura do Projeto
-[Descrição da estrutura de pastas e arquivos do projeto.]
+
 
 ## Contribuição
-[Instruções para contribuir com o projeto, se aplicável.]
+- Contribuições são bem-vindas! Para colaborar, consulte meu perfil para entrar em contato via email ou enviar pull requests diretamente. Agradeço por ajudar a melhorar este projeto! Estou constantemente buscando aprimorar minhas habilidades e evoluir como desenvolvedor.
 
 ## Autor
-Este projeto foi desenvolvido como parte das atividades em aula no SENAC, com orientação do professor Aécio Brito.
+Este projeto foi desenvolvido como parte das atividades em aula no SENAC na unidade LAPA TITO, com orientação do professor **Aécio Brito**.
 
 ## Agradecimentos
-[Agradecimentos a qualquer pessoa ou recurso que tenha contribuído para o projeto.]
+- Quero expressar minha gratidão ao SENAC pela oportunidade de aprendizado e ao Professor Aécio Brito pelo seu compromisso em nos ensinar. Sua dedicação têm sido inspiradoras. Obrigado por compartilhar seu conhecimento e nos ajudar a crescer como profissionais e indivíduos. ("""Caso""" você leia isso algum dia...)
