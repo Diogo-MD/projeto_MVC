@@ -30,6 +30,3 @@ Este projeto foi desenvolvido utilizando a metodologia MVC (Model-View-Controlle
 
 ## Agradecimentos
 - Quero expressar minha gratidão ao SENAC pela oportunidade de aprendizado e ao Professor Aécio Brito pelo seu compromisso em nos ensinar. Sua dedicação têm sido inspiradoras. Obrigado por compartilhar seu conhecimento e nos ajudar a crescer como profissionais e indivíduos. ("""Caso""" você leia isso algum dia...).
-
-
-teste teste
