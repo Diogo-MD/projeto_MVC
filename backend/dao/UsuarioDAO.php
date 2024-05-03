@@ -59,12 +59,12 @@ class UsuarioDAO implements BaseDAO {
 
             return array_map(function($usuario) {
                 return new Usuario ($usuario['Id'],
-                                        $usuario['NomeUsuario'],
-                                        $usuario['Senha'],
-                                        $usuario['GrupoUsuarioId'],
-                                        $usuario['Ativo'],
-                                        $usuario['DataCriacao'],
-                                        $usuario['DataAtualizacao']);
+                                    $usuario['NomeUsuario'],
+                                    $usuario['Senha'],
+                                    $usuario['GrupoUsuarioId'],
+                                    $usuario['Ativo'],
+                                    $usuario['DataCriacao'],
+                                    $usuario['DataAtualizacao']);
                 }, $usuarios);                             
             } catch (PDOException $e) {
                 return null;
