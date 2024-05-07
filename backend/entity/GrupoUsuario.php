@@ -1,51 +1,50 @@
-<?php 
-
+<?php
 class GrupoUsuario {
     // Propriedades
     private $id;
     private $nome;
-    private $descricao;
+    private $descricao;    
     private $dataCriacao;
     private $dataAtualizacao;
     private $usuarioAtualizacao;
     private $ativo;
-    
-    public function __construct($id, $nome, $descricao, $data, $dataCriacao, $dataAtualizacao, $ativo)
-    {
-    $this->id = $id;
-    $this->nome = $nome;
-    $this->descricao = $descricao;
-    $this->dataCriacao = $dataCriacao;
-    $this->dataAtualizacao = $dataAtualizacao;
-    $this->usuarioAtualizacao = null;
-    $this->ativo = $ativo;
+
+    // Construtor
+    public function __construct($id, $nome, $descricao, $dataCriacao, $dataAtualizacao, $ativo = 1) {
+        $this->id = $id;
+        $this->nome = $nome;
+        $this->descricao = $descricao;
+        $this->dataCriacao = $dataCriacao;
+        $this->dataAtualizacao = $dataAtualizacao;
+        $this->usuarioAtualizacao = null; // implementar ao gerenciar usuário
+        $this->ativo = $ativo;
     }
 
-    public function getId(){
+    public function getId() {
         return $this->id;
     }
-    
-    public function getNome(){
+
+    public function getNome() {
         return $this->nome;
     }
 
-    public function getDescricao(){
+    public function getDescricao() {
         return $this->descricao;
     }
 
-    public function getDataCriacao(){
+    public function getDataCriacao() {
         return $this->dataCriacao;
     }
 
-    public function getDataAtualizacao(){
+    public function getDataAtualizacao() {
         return $this->dataAtualizacao;
     }
 
-    public function getUsuarioAtualizacao(){
+    public function getUsuarioAtualizacao() {
         return $this->usuarioAtualizacao;
     }
 
-    public function getAtivo(){
+    public function getAtivo() {
         return $this->ativo;
     }
 }

@@ -1,5 +1,5 @@
 <footer>
-    Rodapé da página
+    RODAPÉ DA PÁGINA
 </footer>
 
 </html>

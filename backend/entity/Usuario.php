@@ -1,23 +1,22 @@
-<?php 
-
+<?php
 class Usuario {
     // Propriedades
     private $id;
     private $nomeUsuario;
     private $senha;
     private $email;
-    private $grupoUsuarioId;
+    private $grupoUsuarioID;
     private $ativo;
     private $dataCriacao;
     private $dataAtualizacao;
 
     // Método Construtor
-    public function __construct($nomeUsuario, $senha, $email, $grupoUsuarioId, $ativo = 1, $dataCriacao = null, $dataAtualizacao = null) 
-    {
+    public function __construct($id, $nomeUsuario, $senha, $email, $grupoUsuarioID, $ativo = 1, $dataCriacao = null, $dataAtualizacao = null) {
+        $this->id = $id;
         $this->nomeUsuario = $nomeUsuario;
         $this->senha = $senha;
         $this->email = $email;
-        $this->grupoUsuarioId = $grupoUsuarioId;
+        $this->grupoUsuarioID = $grupoUsuarioID;
         $this->ativo = $ativo;
         $this->dataCriacao = $dataCriacao;
         $this->dataAtualizacao = $dataAtualizacao;
@@ -41,7 +40,7 @@ class Usuario {
     }
 
     public function getGrupoUsuarioId() {
-        return $this->grupoUsuarioId;
+        return $this->grupoUsuarioID;
     }
 
     public function getAtivo() {
@@ -51,7 +50,7 @@ class Usuario {
     public function getDataCriacao() {
         return $this->dataCriacao;
     }
-    
+
     public function getDataAtualizacao() {
         return $this->dataAtualizacao;
     }
