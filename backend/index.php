@@ -17,7 +17,8 @@ require_once("template/header.php");
                     </div>
                 </div>
             </div>
-        <?php endfor; ?>
+        <?php
+        endfor; ?>
     </div>
 </div>
 
