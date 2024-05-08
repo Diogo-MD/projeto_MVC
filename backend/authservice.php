@@ -12,6 +12,7 @@ if ($type === "register") {
     $new_password = filter_input(INPUT_POST, "new_password");
     $confirm_password = filter_input(INPUT_POST, "confirm_password");
 
+    // Criptografando a senha
     $hashed_password = password_hash($new_password, PASSWORD_DEFAULT);
 
     // Objeto New Usuário         Propriedades abaixo
