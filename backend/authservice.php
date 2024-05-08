@@ -12,8 +12,10 @@ if ($type === "register") {
     $new_password = filter_input(INPUT_POST, "new_password");
     $confirm_password = filter_input(INPUT_POST, "confirm_password");
 
+    $hashed_password = password_hash($new_password, PASSWORD_DEFAULT);
+
     // Objeto New Usuário         Propriedades abaixo
-    $usuario = new Usuario(null, $new_nome, $new_password, $new_email, null, 1, null, null);
+    $usuario = new Usuario(null, $new_nome, $hashed_password, $new_email, null, 1, null, null);
     $usuarioDAO = new UsuarioDAO();
     $usuarioDAO->create($usuario);
     
